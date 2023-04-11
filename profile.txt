@@ -1,0 +1,195 @@
+         148560570 function calls (148536529 primitive calls) in 94.334 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   94.334   94.334 {built-in method builtins.exec}
+        1    0.000    0.000   94.334   94.334 <string>:1(<module>)
+        1    0.000    0.000   94.334   94.334 likelihood.py:115(gridsearchRect)
+        1    0.023    0.023   94.333   94.333 likelihood.py:93(abs_ParamSearch)
+     9036    0.065    0.000   94.309    0.010 likelihood.py:61(opt_func)
+    14104    0.048    0.000   94.219    0.007 likelihood.py:56(pdfsmooth)
+    28208    0.292    0.000   94.171    0.003 likelihood.py:41(cdf)
+    24030    0.184    0.000   93.879    0.004 likelihood.py:36(G)
+    24030    0.119    0.000   93.643    0.004 ctx_mp_python.py:1017(f_wrapped)
+    24030    0.106    0.000   93.000    0.004 elliptic.py:1274(ellippi)
+    24030    0.181    0.000   92.512    0.004 ctx_base.py:353(sum_accurately)
+    24030    0.172    0.000   91.855    0.004 elliptic.py:1421(terms)
+    24030    0.151    0.000   67.839    0.003 elliptic.py:821(elliprj)
+    24030    4.333    0.000   67.280    0.003 elliptic.py:532(RJ_calc)
+  2226600    2.620    0.000   25.529    0.000 ctx_mp_python.py:989(f)
+   211176    2.095    0.000   23.099    0.000 elliptic.py:499(RC_calc)
+    24030    0.119    0.000   23.035    0.001 elliptic.py:628(elliprf)
+    24030    2.062    0.000   22.511    0.001 elliptic.py:466(RF_calc)
+  6523218    5.381    0.000   17.354    0.000 <string>:2(__mul__)
+  2274660    4.163    0.000   16.342    0.000 libmpf.py:1368(mpf_sqrt)
+  4583538    3.789    0.000   16.100    0.000 <string>:2(__add__)
+  6304392    7.193    0.000   15.470    0.000 libmpf.py:702(mpf_add)
+ 14144320    9.725    0.000    9.725    0.000 libmpf.py:208(_normalize1)
+  6253794    5.931    0.000    9.193    0.000 libmpf.py:884(python_mpf_mul)
+   211176    0.604    0.000    7.228    0.000 libelefun.py:923(mpf_acos)
+  2702106    2.208    0.000    6.769    0.000 libmpf.py:291(from_man_exp)
+  2178540    1.339    0.000    6.160    0.000 libintmath.py:279(sqrtrem_python)
+ 10609974    2.616    0.000    5.953    0.000 libintmath.py:91(python_bitcount)
+  1085004    1.088    0.000    5.534    0.000 <string>:2(__div__)
+  1392300    2.243    0.000    4.963    0.000 libmpf.py:950(mpf_div)
+  2178540    4.822    0.000    4.822    0.000 libintmath.py:205(isqrt_small_python)
+  1509678    0.508    0.000    4.410    0.000 libmpf.py:797(mpf_sub)
+  3825974    4.245    0.000    4.245    0.000 libmpf.py:153(_normalize)
+   975042    0.822    0.000    3.517    0.000 <string>:2(__sub__)
+  1115274    0.790    0.000    3.304    0.000 ctx_mp_python.py:169(_cmp)
+ 10609974    3.266    0.000    3.266    0.000 {built-in method _bisect.bisect_right}
+   899004    0.319    0.000    3.133    0.000 ctx_mp_python.py:179(__lt__)
+   782802    0.816    0.000    3.126    0.000 <string>:2(__pow__)
+ 17253606    2.727    0.000    2.727    0.000 {built-in method __new__ of type object at 0x00007FFBF1DACC90}
+   211176    0.426    0.000    2.588    0.000 libelefun.py:842(mpf_atan)
+ 20522460    2.282    0.000    2.382    0.000 {built-in method builtins.hasattr}
+   899004    0.473    0.000    1.887    0.000 libmpf.py:626(mpf_lt)
+    48060    0.052    0.000    1.670    0.000 functions.py:230(root)
+   614592    0.613    0.000    1.621    0.000 ctx_mp_python.py:612(_set_prec)
+    48060    0.099    0.000    1.604    0.000 ctx_mp.py:219(_nthroot)
+782802/758772    0.940    0.000    1.553    0.000 libmpf.py:1042(mpf_pow_int)
+  1115274    0.683    0.000    1.547    0.000 libmpf.py:574(mpf_cmp)
+   211176    1.123    0.000    1.501    0.000 libelefun.py:817(atan_taylor)
+    48060    0.192    0.000    1.470    0.000 libelefun.py:422(mpf_nthroot)
+  3715020    1.115    0.000    1.443    0.000 {built-in method builtins.max}
+    48060    0.063    0.000    1.380    0.000 ctx_base.py:413(power)
+  2418840    0.859    0.000    1.266    0.000 ctx_mp_python.py:597(make_mpf)
+   480600    0.546    0.000    1.131    0.000 libmpf.py:906(python_mpf_mul_int)
+   832008    0.258    0.000    1.098    0.000 {built-in method builtins.abs}
+   168210    0.278    0.000    0.962    0.000 libmpf.py:410(from_float)
+    48060    0.329    0.000    0.946    0.000 libelefun.py:400(nthroot_fixed)
+   360450    0.241    0.000    0.894    0.000 ctx_mp_python.py:623(convert)
+   620832    0.412    0.000    0.840    0.000 ctx_mp_python.py:151(__abs__)
+   614592    0.440    0.000    0.835    0.000 libmpf.py:59(prec_to_dps)
+    48060    0.073    0.000    0.799    0.000 libelefun.py:318(mpf_pow)
+   211176    0.092    0.000    0.779    0.000 libintmath.py:299(isqrt_python)
+   518472    0.414    0.000    0.711    0.000 <string>:2(__eq__)
+    96120    0.122    0.000    0.554    0.000 ctx_mp_python.py:190(__rsub__)
+   633528    0.252    0.000    0.521    0.000 ctx_base.py:70(_re)
+    96120    0.384    0.000    0.488    0.000 libelefun.py:346(int_pow_fixed)
+    48060    0.092    0.000    0.473    0.000 ctx_mp_python.py:47(__new__)
+  1344240    0.462    0.000    0.462    0.000 {built-in method builtins.divmod}
+   518472    0.272    0.000    0.433    0.000 ctx_mp_python.py:1091(mag)
+   926982    0.258    0.000    0.433    0.000 libmpf.py:330(from_int)
+   211176    0.263    0.000    0.378    0.000 libelefun.py:802(atan_taylor_get_cached)
+    48060    0.039    0.000    0.346    0.000 ctx_mp_python.py:82(mpf_convert_arg)
+    24030    0.027    0.000    0.340    0.000 ctx_mp_python.py:1019(<listcomp>)
+   620832    0.237    0.000    0.337    0.000 libmpf.py:677(mpf_abs)
+   144180    0.047    0.000    0.311    0.000 ctx_mp_python.py:180(__gt__)
+   542502    0.249    0.000    0.307    0.000 ctx_mp_python.py:745(isnormal)
+   331326    0.163    0.000    0.269    0.000 ctx_mp_python.py:100(mpf_convert_rhs)
+    72090    0.024    0.000    0.250    0.000 ctx_mp_python.py:182(__ge__)
+   614592    0.249    0.000    0.249    0.000 {built-in method builtins.round}
+   211176    0.089    0.000    0.227    0.000 ctx_base.py:75(_im)
+    72090    0.060    0.000    0.186    0.000 ctx_mp_python.py:157(__pos__)
+   422352    0.134    0.000    0.179    0.000 ctx_mp.py:308(_is_real_type)
+   518472    0.177    0.000    0.177    0.000 libmpf.py:537(mpf_eq)
+    72090    0.055    0.000    0.173    0.000 ctx_mp_python.py:350(_mpf_)
+   144180    0.070    0.000    0.146    0.000 libmpf.py:636(mpf_gt)
+   120150    0.053    0.000    0.142    0.000 libmpf.py:653(mpf_pos)
+  1363176    0.113    0.000    0.113    0.000 ctx_mp_python.py:128(<lambda>)
+   518472    0.111    0.000    0.111    0.000 ctx_mp_python.py:1081(_mpf_mag)
+    24030    0.039    0.000    0.105    0.000 libelefun.py:114(f)
+   638622    0.100    0.000    0.100    0.000 ctx_mp_python.py:620(<lambda>)
+    72090    0.035    0.000    0.092    0.000 libmpf.py:641(mpf_ge)
+   668045    0.091    0.000    0.091    0.000 {built-in method builtins.isinstance}
+   211176    0.077    0.000    0.077    0.000 libmpf.py:509(to_fixed)
+   168210    0.061    0.000    0.075    0.000 ctx_mp_python.py:713(isinf)
+    48060    0.036    0.000    0.074    0.000 ctx_mp_python.py:163(__neg__)
+   168210    0.072    0.000    0.072    0.000 {built-in method math.frexp}
+   308662    0.072    0.000    0.072    0.000 libmpf.py:692(mpf_sign)
+    96492    0.070    0.000    0.070    0.000 {built-in method math.log}
+   422352    0.069    0.000    0.069    0.000 ctx_mp_python.py:129(<lambda>)
+   168210    0.052    0.000    0.067    0.000 ctx_mp.py:318(isnan)
+    48060    0.061    0.000    0.061    0.000 libintmath.py:19(giant_steps)
+   211176    0.057    0.000    0.057    0.000 libmpf.py:933(mpf_shift)
+   168210    0.045    0.000    0.053    0.000 libmpf.py:663(mpf_neg)
+    24030    0.021    0.000    0.052    0.000 ctx_mp_python.py:145(__float__)
+   192240    0.045    0.000    0.045    0.000 libintmath.py:43(rshift)
+   192240    0.037    0.000    0.037    0.000 libintmath.py:50(lshift)
+   144180    0.034    0.000    0.034    0.000 ctx_mp_python.py:147(__nonzero__)
+    24030    0.018    0.000    0.031    0.000 libmpf.py:454(to_float)
+    24030    0.017    0.000    0.017    0.000 libelefun.py:94(g)
+    24030    0.013    0.000    0.013    0.000 {built-in method math.ldexp}
+    48060    0.012    0.000    0.012    0.000 ctx_mp.py:109(<lambda>)
+  266/255    0.001    0.000    0.012    0.000 {built-in method numpy.core._multiarray_umath.implement_array_function}
+      248    0.001    0.000    0.011    0.000 <__array_function__ internals>:177(sum)
+      248    0.002    0.000    0.010    0.000 fromnumeric.py:2160(sum)
+     8789    0.008    0.000    0.009    0.000 getlimits.py:457(__new__)
+      253    0.002    0.000    0.008    0.000 fromnumeric.py:69(_wrapreduction)
+      253    0.006    0.000    0.006    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+     2073    0.005    0.000    0.005    0.000 {built-in method numpy.zeros}
+    26155    0.005    0.000    0.005    0.000 {built-in method builtins.len}
+     8789    0.001    0.000    0.001    0.000 {method 'get' of 'dict' objects}
+        2    0.000    0.000    0.001    0.000 <__array_function__ internals>:177(meshgrid)
+        2    0.000    0.000    0.001    0.000 function_base.py:4805(meshgrid)
+        3    0.000    0.000    0.001    0.000 {built-in method builtins.print}
+        2    0.000    0.000    0.001    0.000 function_base.py:4949(<listcomp>)
+        6    0.001    0.000    0.001    0.000 {method 'copy' of 'numpy.ndarray' objects}
+       48    0.000    0.000    0.000    0.000 iostream.py:525(write)
+      253    0.000    0.000    0.000    0.000 fromnumeric.py:70(<dictcomp>)
+        1    0.000    0.000    0.000    0.000 likelihood.py:86(abs_ParamSearchSize)
+       48    0.000    0.000    0.000    0.000 iostream.py:455(_schedule_flush)
+        3    0.000    0.000    0.000    0.000 iostream.py:209(schedule)
+        3    0.000    0.000    0.000    0.000 <__array_function__ internals>:177(linspace)
+        3    0.000    0.000    0.000    0.000 function_base.py:23(linspace)
+      253    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        3    0.000    0.000    0.000    0.000 socket.py:480(send)
+        2    0.000    0.000    0.000    0.000 <__array_function__ internals>:177(broadcast_arrays)
+        2    0.000    0.000    0.000    0.000 stride_tricks.py:479(broadcast_arrays)
+        2    0.000    0.000    0.000    0.000 stride_tricks.py:545(<listcomp>)
+        6    0.000    0.000    0.000    0.000 stride_tricks.py:339(_broadcast_to)
+      248    0.000    0.000    0.000    0.000 fromnumeric.py:2155(_sum_dispatcher)
+        1    0.000    0.000    0.000    0.000 <__array_function__ internals>:177(amin)
+        3    0.000    0.000    0.000    0.000 <__array_function__ internals>:177(any)
+        1    0.000    0.000    0.000    0.000 fromnumeric.py:2800(amin)
+        3    0.000    0.000    0.000    0.000 fromnumeric.py:2305(any)
+       48    0.000    0.000    0.000    0.000 iostream.py:436(_is_master_process)
+        3    0.000    0.000    0.000    0.000 threading.py:1071(is_alive)
+        2    0.000    0.000    0.000    0.000 stride_tricks.py:415(_broadcast_shape)
+        3    0.000    0.000    0.000    0.000 {method 'any' of 'numpy.generic' objects}
+        2    0.000    0.000    0.000    0.000 function_base.py:4936(<listcomp>)
+        3    0.000    0.000    0.000    0.000 numerictypes.py:356(issubdtype)
+        3    0.000    0.000    0.000    0.000 <__array_function__ internals>:177(result_type)
+        3    0.000    0.000    0.000    0.000 _methods.py:54(_any)
+        3    0.000    0.000    0.000    0.000 threading.py:1017(_wait_for_tstate_lock)
+        1    0.000    0.000    0.000    0.000 <__array_function__ internals>:177(amax)
+        9    0.000    0.000    0.000    0.000 {method 'reshape' of 'numpy.ndarray' objects}
+       48    0.000    0.000    0.000    0.000 {built-in method nt.getpid}
+        3    0.000    0.000    0.000    0.000 iostream.py:97(_event_pipe)
+        6    0.000    0.000    0.000    0.000 numerictypes.py:282(issubclass_)
+       48    0.000    0.000    0.000    0.000 {method 'write' of '_io.StringIO' objects}
+        3    0.000    0.000    0.000    0.000 <__array_function__ internals>:177(ndim)
+        2    0.000    0.000    0.000    0.000 stride_tricks.py:537(<listcomp>)
+        1    0.000    0.000    0.000    0.000 fromnumeric.py:2675(amax)
+        3    0.000    0.000    0.000    0.000 {built-in method numpy.arange}
+        6    0.000    0.000    0.000    0.000 {built-in method builtins.any}
+       12    0.000    0.000    0.000    0.000 {built-in method numpy.asanyarray}
+        6    0.000    0.000    0.000    0.000 function_base.py:346(iterable)
+        1    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+        3    0.000    0.000    0.000    0.000 numeric.py:1859(isscalar)
+        3    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.lock' objects}
+       12    0.000    0.000    0.000    0.000 {built-in method numpy.array}
+        6    0.000    0.000    0.000    0.000 stride_tricks.py:25(_maybe_view_as_subclass)
+        3    0.000    0.000    0.000    0.000 {method 'astype' of 'numpy.ndarray' objects}
+       24    0.000    0.000    0.000    0.000 stride_tricks.py:344(<genexpr>)
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.all}
+        9    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
+        3    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+        4    0.000    0.000    0.000    0.000 stride_tricks.py:541(<genexpr>)
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+        2    0.000    0.000    0.000    0.000 {built-in method time.time}
+        3    0.000    0.000    0.000    0.000 threading.py:513(is_set)
+        3    0.000    0.000    0.000    0.000 fromnumeric.py:3164(ndim)
+        3    0.000    0.000    0.000    0.000 function_base.py:18(_linspace_dispatcher)
+        1    0.000    0.000    0.000    0.000 fromnumeric.py:2795(_amin_dispatcher)
+        3    0.000    0.000    0.000    0.000 {built-in method _operator.index}
+        6    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+        3    0.000    0.000    0.000    0.000 multiarray.py:664(result_type)
+        3    0.000    0.000    0.000    0.000 fromnumeric.py:2300(_any_dispatcher)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 fromnumeric.py:2670(_amax_dispatcher)
+        3    0.000    0.000    0.000    0.000 fromnumeric.py:3160(_ndim_dispatcher)
+        2    0.000    0.000    0.000    0.000 stride_tricks.py:475(_broadcast_arrays_dispatcher)
+        2    0.000    0.000    0.000    0.000 function_base.py:4800(_meshgrid_dispatcher)
